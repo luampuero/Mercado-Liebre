@@ -13,4 +13,4 @@ app.get("/home",(req,res)=>{
 
 app.use(express.static("public"));
 
-app.listen(port,console.log(`Server running  in http://localhost:${port}`))
+app.listen(port,console.log(`Server running  in http://localhost:${port}`));
