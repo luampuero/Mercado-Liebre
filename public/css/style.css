@@ -98,3 +98,11 @@ body{
     text-align: center;
     padding-bottom: 10px;
 }
+
+.off {
+    color:#39b54a
+}
+
+.logo{
+    position: relative;
+}
