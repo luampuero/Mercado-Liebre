@@ -22,6 +22,7 @@
 
 body{
     background-color:#ebebeb;
+    margin:2%;
 }
 
 .header{
@@ -68,6 +69,7 @@ body{
 
  .img img{
     width: 100%;
+    margin: #777
 }
 
 .ofertas{
@@ -114,4 +116,14 @@ body{
     padding: 5px;
     width: 30px 30px 30px 30px;
     height: 30px 30px 30px 30px;
+}
+
+.art{
+    border:1px solid #ebebeb;
+    padding:2px;
+}
+
+.articulos{
+    background-color: #fff;
+    margin: 1px 1px 60px 1px
 }
