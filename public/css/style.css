@@ -94,15 +94,24 @@ body{
 }
 
 .copyright{
-    background-color:var(--color-blanco);
     text-align: center;
-    padding-bottom: 10px;
+    font: size 2em;
+    margin: 0px 0px 10px 0px;
+    color:#666
 }
 
 .off {
     color:#39b54a
 }
 
-.logo{
+.logo i{
     position: relative;
+}
+
+.circle{
+    border-radius:60% ;
+    border:2px solid var(--color-verde);
+    padding: 5px;
+    width: 30px 30px 30px 30px;
+    height: 30px 30px 30px 30px;
 }
