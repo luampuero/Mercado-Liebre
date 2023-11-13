@@ -5,7 +5,7 @@
     --color-azul: #03264C;
     --color-celeste: #1259c3;
     --color-grisOscuro: #666;
-    --color-grisClaro: #ebebeb;
+    c
     --color-verde: #39b54a;
     --color-negro: black;
     --color-blanco: white;
@@ -166,7 +166,11 @@ body {
     display:0 ;
 
 }
-
+ 
+.main{
+    background-color:#e0e0e0;
+    padding: 60px;
+}
 
 
 @media  screen and (max-width:550px){
