@@ -163,13 +163,11 @@ body {
 }
 
 .button{
-    display: ;
+    display:0 ;
 
 }
 
-.lista{
-    
-}
+
 
 @media  screen and (max-width:550px){
     .button
@@ -196,7 +194,5 @@ body {
         
     }
 
-    .lista{
-        
-    }
+
 }

@@ -15,3 +15,4 @@ app.use(express.static("public"));
 
 app.listen(port,console.log(`Server running  in http://localhost:${port}`));
 
+pp.get("/registro",(req,res)=> res.sendFile(path.join(__dirname,"/views/registro.html")));
