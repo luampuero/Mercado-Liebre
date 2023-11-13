@@ -28,7 +28,7 @@ body {
 .header {
     width: 100%;
     background-color: #EAC926;
-    padding: 12px;
+    padding: 34px;
 }
 
 .subtitulo {
@@ -47,10 +47,13 @@ body {
     background-color: var(--color-celeste);
     color: var(--color-blanco);
     max-width: 40px;
-    padding: 8px 0;
+    padding: 8px 9px;
+    position:absolute;
+    right: 45%;
+    top:290px;
 }
 
-.menu ul li a {
+.menu  {
     color: #000;
     display: inline-block;
     padding: 6px 0;
@@ -130,7 +133,7 @@ body {
     margin: 1px 1px 10px 1px;
     flex-wrap: wrap;
     position:relative;
-    padding: 25px;px;
+    padding: 25px;
 
 }
 
@@ -157,4 +160,43 @@ body {
     font-size: 10px;
     position:absolute;
     top: 54px;
+}
+
+.button{
+    display: ;
+
+}
+
+.lista{
+    
+}
+
+@media  screen and (max-width:550px){
+    .button
+    .cerrar-button{
+        display: block;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top:0;
+        text-align: center;
+        background-color: #EAC926;
+        padding: 2px;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .menu-visible{
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    .lista{
+        
+    }
 }
