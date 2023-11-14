@@ -52,11 +52,11 @@
             <input type="text" name="Fecha de nacimiento">
             <label for="domicilio">Domicilio</label>
             <input type="text" name="domicilio">
-            <label for="perfil">Peril del uruario</label>
-            <select name="perfil" id="">
-                <option value="comprador">Comprador</option>
-                <option value="vendedor">Vendedor</option>
-            </select><br>
+            <div>
+                <label for="perfil">Peril del usuario</label>
+                <input type="radio" name="perfil" value="comprador"><label>comprador</label>
+                <input type="radio" name="perfil" value="vendedor"><label>vendedor</label>
+            </div>
             <label for="interés">Intereses</label>
             <select name="intereses" id="">
                 <option value="Electro">Electro</option>
@@ -75,4 +75,5 @@
         </form>
     </main>
 </body>
+
 </html>
