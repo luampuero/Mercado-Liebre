@@ -11,6 +11,13 @@ app.get("/home",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/home.html"));
 })
 
+app.get("/ingresar",(req,res)=>{
+    res.sendFile(path.join(__dirname,"/views/ingresar.html"));
+})
+
+
+
+
 app.use(express.static("public"));
 
 app.listen(port,console.log(`Server running  in http://localhost:${port}`));
