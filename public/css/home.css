@@ -47,7 +47,7 @@ body {
     padding: 8px 9px;
     position:absolute;
     right: 45%;
-    top:290px;
+    top:250px;
 }
 
 .menu  {
@@ -159,10 +159,7 @@ body {
     top: 54px;
 }
 
-.button{
-    display:0 ;
 
-}
  
 .main{
     background-color:#e0e0e0;
